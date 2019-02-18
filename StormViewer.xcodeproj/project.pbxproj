@@ -23,6 +23,7 @@
 		9B34D26021EFB8E00016E318 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B34D25621EFB8E00016E318 /* nssl0034.jpg */; };
 		9B34D26221EFBB4F0016E318 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34D26121EFBB4F0016E318 /* SourceViewController.swift */; };
 		9B34D26421EFBBDB0016E318 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34D26321EFBBDB0016E318 /* DetailsViewController.swift */; };
+		9BD7739D2219CE6A00020554 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD7739C2219CE6A00020554 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,7 @@
 		9B34D24021EFB7E20016E318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B34D24321EFB7E20016E318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B34D24521EFB7E20016E318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B34D24621EFB7E20016E318 /* StormViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormViewer.entitlements; sourceTree = "<group>"; };
+		9B34D24621EFB7E20016E318 /* SocialMedia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialMedia.entitlements; sourceTree = "<group>"; };
 		9B34D24D21EFB8E00016E318 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		9B34D24E21EFB8E00016E318 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
 		9B34D24F21EFB8E00016E318 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		9B34D25621EFB8E00016E318 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		9B34D26121EFBB4F0016E318 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		9B34D26321EFBBDB0016E318 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9BD7739C2219CE6A00020554 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,9 @@
 				9B34D24221EFB7E20016E318 /* Main.storyboard */,
 				9B34D26121EFBB4F0016E318 /* SourceViewController.swift */,
 				9B34D26321EFBBDB0016E318 /* DetailsViewController.swift */,
+				9BD7739C2219CE6A00020554 /* WindowController.swift */,
 				9B34D24521EFB7E20016E318 /* Info.plist */,
-				9B34D24621EFB7E20016E318 /* StormViewer.entitlements */,
+				9B34D24621EFB7E20016E318 /* SocialMedia.entitlements */,
 				9B34D24C21EFB8E00016E318 /* Content */,
 			);
 			path = StormViewer;
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B34D23F21EFB7E00016E318 /* ViewController.swift in Sources */,
+				9BD7739D2219CE6A00020554 /* WindowController.swift in Sources */,
 				9B34D23D21EFB7E00016E318 /* AppDelegate.swift in Sources */,
 				9B34D26221EFBB4F0016E318 /* SourceViewController.swift in Sources */,
 				9B34D26421EFBBDB0016E318 /* DetailsViewController.swift in Sources */,
